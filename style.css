@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 10px;
+    row-gap: 10px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+}
+.round-border{
+    background-color: brown;
+    border-radius: 50%;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+.para{
+    width: 200px;
+    background-color: burlywood;
+    color: chocolate;
+    border: 1px solid coral;
+    border-radius: 10px;
+    padding: 10px;
+}
